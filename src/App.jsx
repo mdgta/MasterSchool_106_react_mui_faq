@@ -8,6 +8,7 @@ import InputLabel from "@mui/material/InputLabel";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 import {ThemeProvider, createTheme} from "@mui/material/styles";
 import {CssBaseline, styled} from "@mui/material";
 import { green, purple } from "@mui/material/colors";
@@ -27,6 +28,7 @@ function App() {
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
+			<Container maxWidth="xs">
 			<CustomButton>CustomButton</CustomButton>
 			<Typography sx={{textDecoration: "underline"}}>underlined text</Typography>
 			<Typography variant="h3">
@@ -57,9 +59,11 @@ function App() {
 					<MenuItem value="potato">Potato</MenuItem>
 				</Select>
 			</FormControl>
+				<Box>a</Box>
 			<Typography sx={{color: {xs: "red", sm: "blue"}}}>
 				Shrink the page to change my color!
 			</Typography>
+			</Container>
 		</ThemeProvider>
 	);
 }

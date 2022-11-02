@@ -57,3 +57,9 @@ Can be achieved using `sx`. Instead of passing each property a string representi
 	Content that will be hidden on extra-small resolutions (600px by default)
 </Component>
 ```
+
+## Layout components
+
+**Container** is used as a generic container, and supports the `maxWidth` prop to limit its size to a specific breakpoint resolution. It also aligns itself to the center of the screen if the screen resolution is larger than its size.
+
+**Box** is used as a container when adding custom styling is desired (it renders a `<div>` that doesn't have any styling of its own).
