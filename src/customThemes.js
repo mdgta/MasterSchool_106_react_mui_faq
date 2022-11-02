@@ -117,6 +117,46 @@ const customThemes = {
 			"activeChannel": "255 255 255",
 			"selectedChannel": "255 255 255"
 		}
+	},
+	carrot: {
+		"primary": {
+			"main": "#00aa44",
+			"light": "#00d354",
+			"dark": "#00d354",
+			"contrastText": "rgba(0, 0, 0, 0.87)"
+		},
+		"secondary": {
+			"main": "#ce93d8",
+			"light": "#f3e5f5",
+			"dark": "#ab47bc",
+			"contrastText": "rgba(0, 0, 0, 0.87)"
+		},
+		"text": {
+			"primary": "#00aa44",
+			"secondary": "#cc9b76",
+			"disabled": "rgba(255, 255, 255, 0.5)",
+			"icon": "rgba(255, 255, 255, 0.5)",
+			"primaryChannel": "255 255 255",
+			"secondaryChannel": "255 255 255"
+		},
+		"divider": "rgba(255, 255, 255, 0.12)",
+		"background": {
+			"paper": "#ff9650",
+			"default": "#ff9650"
+		},
+		"action": {
+			"active": "#c69",
+			"hover": "rgba(255, 255, 255, 0.08)",
+			"hoverOpacity": 0.08,
+			"selected": "rgba(255, 255, 255, 0.16)",
+			"selectedOpacity": 0.16,
+			"disabled": "rgba(255, 255, 255, 0.3)",
+			"disabledBackground": "rgba(255, 255, 255, 0.12)",
+			"focus": "rgba(255, 255, 255, 0.12)",
+			"activatedOpacity": 0.24,
+			"activeChannel": "255 255 255",
+			"selectedChannel": "255 255 255"
+		}
 	}
 }
 

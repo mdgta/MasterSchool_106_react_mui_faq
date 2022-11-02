@@ -1,6 +1,18 @@
+# Installation (this repo)
+
+```bash
+npm i
+```
+
+To run:
+
+```bash
+npm run dev
+```
+
 # FAQ
 
-## Installation
+## Installation (MUI)
 ```bash
 npm install @mui/material @emotion/react @emotion/styled
 ```

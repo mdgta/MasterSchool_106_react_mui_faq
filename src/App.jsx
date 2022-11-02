@@ -30,6 +30,7 @@ function App() {
 			<CssBaseline />
 			<Container maxWidth="xs">
 			<CustomButton>CustomButton</CustomButton>
+			<Button variant="contained">Button 2</Button>
 			<Typography sx={{textDecoration: "underline"}}>underlined text</Typography>
 			<Typography variant="h3">
 				aaaa
@@ -57,6 +58,7 @@ function App() {
 					<MenuItem value="light">Light</MenuItem>
 					<MenuItem value="dark">Dark</MenuItem>
 					<MenuItem value="potato">Potato</MenuItem>
+					<MenuItem value="carrot">Carrot</MenuItem>
 				</Select>
 			</FormControl>
 				<Box>a</Box>
