@@ -47,3 +47,13 @@ It also allows custimizing CSS properties with non-MUI values, like we'd normall
 ```jsx
 <Typography sx={{textDecoration: "underline"}}>underlined text</Typography>
 ```
+
+## Responsive design
+
+Can be achieved using `sx`. Instead of passing each property a string representing a CSS value/MUI palette theme, an entire object will be passed, where the keys as the different resolutions (the actual size of each resolution is created as part of the `createTheme`), and values are the values that will be used in each resolution:
+
+```jsx
+<Component sx={{display: {xs: "none", sm: "block"}}}>
+	Content that will be hidden on extra-small resolutions (600px by default)
+</Component>
+```

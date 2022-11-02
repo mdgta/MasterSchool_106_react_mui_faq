@@ -7,6 +7,7 @@ import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
+import Box from "@mui/material/Box";
 import {ThemeProvider, createTheme} from "@mui/material/styles";
 import {CssBaseline, styled} from "@mui/material";
 import { green, purple } from "@mui/material/colors";
@@ -31,7 +32,7 @@ function App() {
 			<Typography variant="h3">
 				aaaa
 			</Typography>
-			<Typography variant="h3" sx={{color: "text.secondary", textDecoration: "underline"}}>
+			<Typography variant="h3" xs={{color: "text.secondary", textDecoration: "underline"}}>
 				bbb
 			</Typography>
 			<Divider />
@@ -56,6 +57,9 @@ function App() {
 					<MenuItem value="potato">Potato</MenuItem>
 				</Select>
 			</FormControl>
+			<Typography sx={{color: {xs: "red", sm: "blue"}}}>
+				Shrink the page to change my color!
+			</Typography>
 		</ThemeProvider>
 	);
 }

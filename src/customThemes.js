@@ -105,7 +105,7 @@ const customThemes = {
 			"default": "#fbf4da"
 		},
 		"action": {
-			"active": "#fff",
+			"active": "#c69",
 			"hover": "rgba(255, 255, 255, 0.08)",
 			"hoverOpacity": 0.08,
 			"selected": "rgba(255, 255, 255, 0.16)",
