@@ -1,3 +1,7 @@
+# Description
+
+A quick example for some of MUI's implementations as part of a group project. Nothing fancy or practical, just a proof-of-concept for some common FAQs.
+
 # Installation (this repo)
 
 ```bash
